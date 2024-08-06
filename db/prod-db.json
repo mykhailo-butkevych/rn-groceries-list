@@ -1,0 +1,118 @@
+{
+    "groceries": [
+      {
+        "name": "Breadq",
+        "amount": 11,
+        "id": "3",
+        "isBought": false
+      },
+      {
+        "id": "4",
+        "name": "Butter",
+        "amount": 1,
+        "isBought": false
+      },
+      {
+        "id": "5",
+        "name": "Apples",
+        "amount": 6,
+        "isBought": false
+      },
+      {
+        "id": "6",
+        "name": "Bananas",
+        "amount": 5,
+        "isBought": false
+      },
+      {
+        "id": "7",
+        "name": "Tomatoes",
+        "amount": 4,
+        "isBought": true
+      },
+      {
+        "id": "8",
+        "name": "Chicken Breast",
+        "amount": 2,
+        "isBought": false
+      },
+      {
+        "id": "10",
+        "name": "Cheese",
+        "amount": 1,
+        "isBought": false
+      },
+      {
+        "name": "Orange Juiceqwe",
+        "amount": 33,
+        "id": "11",
+        "isBought": false
+      },
+      {
+        "id": "12",
+        "name": "Cereal",
+        "amount": 2,
+        "isBought": false
+      },
+      {
+        "id": "13",
+        "name": "Yogurt",
+        "amount": 4,
+        "isBought": false
+      },
+      {
+        "id": "14",
+        "name": "Strawberries",
+        "amount": 1,
+        "isBought": true
+      },
+      {
+        "id": "15",
+        "name": "Blueberries",
+        "amount": 1,
+        "isBought": true
+      },
+      {
+        "id": "16",
+        "name": "Broccoli",
+        "amount": 2,
+        "isBought": true
+      },
+      {
+        "id": "17",
+        "name": "Spinachqq",
+        "amount": 13,
+        "isBought": false
+      },
+      {
+        "id": "18",
+        "name": "Pasta",
+        "amount": 3,
+        "isBought": false
+      },
+      {
+        "id": "19",
+        "name": "Rice",
+        "amount": 2,
+        "isBought": false
+      },
+      {
+        "id": "21",
+        "name": "Papaya",
+        "amount": 3,
+        "isBought": false
+      },
+      {
+        "id": "8e161749-5923-49b7-8c3f-7fcd3439ff15",
+        "name": "Test 1",
+        "amount": 123,
+        "isBought": false
+      },
+      {
+        "id": "09eea983-1941-49be-b8eb-79502aba8669",
+        "name": "Test 3",
+        "amount": 123,
+        "isBought": true
+      }
+    ]
+  }
