@@ -23,7 +23,7 @@ export const GroceriesScreen = () => {
       <View
         flex={1}
         paddingHorizontal={30}
-        paddingVertical={15}
+        paddingTop={15}
         gap={10}
         height="100%">
         <GroceriesList

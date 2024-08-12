@@ -40,7 +40,7 @@ export const GroceriesList = ({
 }: Props) => {
   if (isError) {
     return (
-      <View flex={1} height="100%" justifyContent="center" alignItems="center">
+      <View flex={1} justifyContent="center" alignItems="center">
         {error?.message && (
           <View>
             <Text bold>Fetching Groceries Error:</Text>
@@ -55,24 +55,28 @@ export const GroceriesList = ({
   }
 
   return (
-    <FlashList
-      data={data}
-      keyExtractor={keyExtractor}
-      estimatedItemSize={150}
-      showsHorizontalScrollIndicator={false}
-      showsVerticalScrollIndicator={false}
-      renderItem={renderItem}
-      refreshControl={
-        <RefreshControl
-          refreshing={isFetching}
-          onRefresh={onRefresh}
-          tintColor="black"
-        />
-      }
-      ListFooterComponent={isFetchingNextPage ? StyledActivityIndicator : null}
-      ListEmptyComponent={isFetching ? null : CustomEmptyList}
-      onEndReached={onEndReached}
-      onEndReachedThreshold={0.2}
-    />
+    <View height="100%">
+      <FlashList
+        data={data}
+        keyExtractor={keyExtractor}
+        estimatedItemSize={150}
+        showsHorizontalScrollIndicator={false}
+        showsVerticalScrollIndicator={false}
+        renderItem={renderItem}
+        refreshControl={
+          <RefreshControl
+            refreshing={isFetching}
+            onRefresh={onRefresh}
+            tintColor="black"
+          />
+        }
+        ListFooterComponent={
+          isFetchingNextPage ? StyledActivityIndicator : null
+        }
+        ListEmptyComponent={isFetching ? null : CustomEmptyList}
+        onEndReached={onEndReached}
+        onEndReachedThreshold={0.2}
+      />
+    </View>
   );
 };
